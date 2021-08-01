@@ -362,6 +362,7 @@ public class TicTacToe implements Runnable, Serializable {
     }
 
 
+
     private void initializeServer() {
         try {
             serverSocket = new ServerSocket(port, 8, InetAddress.getByName(ip));
